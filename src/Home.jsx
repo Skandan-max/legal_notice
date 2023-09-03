@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ReactDOM from 'react-dom';   
 import LegalNotice from './legalNotice'; 
 
 const Home = () => {
@@ -39,7 +40,7 @@ const Home = () => {
       .then((response) => response.json())
       .then((data) => {
         console.log('Data stored in the local database:', data);
-        return <LegalNotice formData={formData} />;
+        ReactDOM.render(<LegalNotice formData={formData} />, document.getElementById('root'));
       })
       .catch((error) => {
         console.error('Error storing data:', error);
