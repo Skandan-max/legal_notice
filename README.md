@@ -1,4 +1,4 @@
-## npx json-server --watch data/db.json --port 7777
+### npx json-server --watch data/db.json --port 7777
 start the json server with above code
 
 ### `npm start`
