@@ -2,59 +2,99 @@
   "legalnotices": [
     {
       "name": "Skandan ",
-      "address": "s",
-      "loantype": "",
-      "emi": "",
-      "dod": "",
+      "address": "bangalore",
+      "loantype": "car loan",
+      "emi": "45",
+      "dod": "2023-09-13",
       "id": 1
     },
     {
       "name": "Skandan ",
-      "address": "f",
-      "loantype": "",
-      "emi": "ergg",
-      "dod": "",
+      "address": "bangalore",
+      "loantype": "car loan",
+      "emi": "12",
+      "dod": "2023-09-07",
       "id": 2
     },
     {
       "name": "Skandan ",
-      "address": "f",
-      "loantype": "",
-      "emi": "ergg",
-      "dod": "",
+      "address": "bangalore",
+      "loantype": "car loan",
+      "emi": "12",
+      "dod": "2023-09-07",
       "id": 3
     },
     {
       "name": "Skandan ",
-      "address": "f",
-      "loantype": "",
-      "emi": "ergg",
-      "dod": "",
+      "address": "bangalore",
+      "loantype": "car loan",
+      "emi": "12",
+      "dod": "2023-09-13",
       "id": 4
     },
     {
-      "name": "Skandan ",
-      "address": "f",
-      "loantype": "",
-      "emi": "ergg",
-      "dod": "",
+      "name": "Skandan S S",
+      "address": "bangalore",
+      "loantype": "car loan",
+      "emi": "7",
+      "dod": "2023-09-18",
       "id": 5
     },
     {
-      "name": "Skandan ",
-      "address": "f",
-      "loantype": "",
-      "emi": "ergg",
-      "dod": "",
+      "name": "Skandan S S",
+      "address": "bangalore",
+      "loantype": "car loan",
+      "emi": "77",
+      "dod": "2023-09-30",
       "id": 6
     },
     {
-      "name": "Skandan ",
-      "address": "abc",
-      "loantype": "",
-      "emi": "wqd",
-      "dod": "",
+      "name": "Skandan S S",
+      "address": "bangalore",
+      "loantype": "car loan",
+      "emi": "77",
+      "dod": "2023-09-19",
       "id": 7
+    },
+    {
+      "name": "dishanth",
+      "address": "chennai",
+      "loantype": "home loan",
+      "emi": "7",
+      "dod": "2023-09-12",
+      "id": 8
+    },
+    {
+      "name": "Skandan S S",
+      "address": "bangalore",
+      "loantype": "home loan",
+      "emi": "12",
+      "dod": "2023-09-14",
+      "id": 9
+    },
+    {
+      "name": "Skandan S S",
+      "address": "bangalore",
+      "loantype": "home loan",
+      "emi": "77",
+      "dod": "2023-09-14",
+      "id": 10
+    },
+    {
+      "name": "Skandan S S",
+      "address": "bangalore",
+      "loantype": "car loan",
+      "emi": "77",
+      "dod": "2023-09-14",
+      "id": 11
+    },
+    {
+      "name": "Skandan S S",
+      "address": "bangalore",
+      "loantype": "home loan",
+      "emi": "77",
+      "dod": "2023-09-14",
+      "id": 12
     }
   ]
 }

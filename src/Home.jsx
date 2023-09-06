@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import ReactDOM from 'react-dom';   
-import LegalNotice from './legalNotice'; 
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
+    const navigate = useNavigate(); 
+
   const [formData, setFormData] = useState({
     name: '',
     address: '',
@@ -36,11 +37,13 @@ const Home = () => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify(userData),
-    })
+     })
       .then((response) => response.json())
       .then((data) => {
         console.log('Data stored in the local database:', data);
-        ReactDOM.render(<LegalNotice formData={formData} />, document.getElementById('root'));
+        // ReactDOM.render(<LegalNotice formData={formData} />, document.getElementById('root'));
+        // <LegalNotice formData={formData} />
+        navigate('/legalnotice', { state: { formData } });
       })
       .catch((error) => {
         console.error('Error storing data:', error);
@@ -60,15 +63,15 @@ const Home = () => {
         </div>
         <div>
           <label>Loan Type:</label>
-          <input type="text" name="loanType" value={formData.loantype} onChange={handleInputChange} />
+          <input type="text" name="loantype" value={formData.loantype} onChange={handleInputChange} />
         </div>
         <div>
           <label>EMI Amount</label>
-          <input type="text" name="emi" value={formData.emi} onChange={handleInputChange} />
+          <input type="number" name="emi" value={formData.emi} onChange={handleInputChange} />
         </div>
         <div>
           <label>Date of Default:(DD/MM/YYYY)</label>
-          <input type="text" name="dateofdefault" value={formData.dod} onChange={handleInputChange} />
+          <input type="date" name="dod" value={formData.dod} onChange={handleInputChange} />
         </div>
         <button type="submit">Submit</button>
       </form>
